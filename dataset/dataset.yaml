@@ -1,0 +1,5 @@
+train: /content/drive/MyDrive/dataset/train
+val: /content/drive/MyDrive/dataset/val
+test: /content/drive/MyDrive/dataset/test
+nc: 1
+names: ["botella"]
