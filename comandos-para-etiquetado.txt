@@ -1,0 +1,20 @@
+# Instala labelme
+pip install labelme
+
+# Actualiza pip
+python.exe -m pip install --upgrade pip
+
+# Habilitar permisos
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope Process
+
+# Activar Scripts en entorno virtual
+.\venv\Scripts\activate
+
+# Ejecutar labelme
+labelme
+
+# Instalar labelme2yolo
+pip install labelme2yolo
+
+# Conviertir archivos Json a Yolo
+labelme2yolo --json_dir tu/direccion/sin/espacios
